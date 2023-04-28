@@ -1,0 +1,22 @@
+{
+  "name": "selenium-ts-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/selenium-webdriver": "^4.1.13",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.9.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
